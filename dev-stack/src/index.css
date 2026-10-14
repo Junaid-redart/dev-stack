@@ -1,2 +1,29 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  --color-brand-orange: #ff6b24;
+  --color-brand-pink: #ec258a;
+  --color-brand-violet: #9333ea;
+}
+
+@utility brand-gradient {
+  background-image: linear-gradient(
+    to right,
+    var(--color-brand-orange),
+    var(--color-brand-pink),
+    var(--color-brand-violet)
+  );
+}
+
+@utility brand-gradient-text {
+  background-image: linear-gradient(
+    to right,
+    var(--color-brand-orange),
+    var(--color-brand-pink),
+    var(--color-brand-violet)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
