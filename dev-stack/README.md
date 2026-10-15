@@ -1,22 +1,26 @@
+# Dev Stack
+
+Dev Stack is a responsive React web application where developers can explore popular technologies and build their own personalized development stack.
+
 ## Live Website
+
 https://dev-stack12.netlify.app
 
 ## GitHub Repository
-https://github.com/Junaid-redart/dev-stack
-# Dev Stack
 
-Dev Stack is a responsive web application where developers can explore popular technologies and build their own personalized development stack.
+https://github.com/Junaid-redart/dev-stack
 
 ## Features
 
 - Explore 12 popular development technologies.
 - View technology details, categories, difficulty levels, and ratings.
 - Add technologies to a personalized stack.
-- Prevent duplicate selections.
-- Remove individual technologies or clear the entire stack.
-- Receive toast notifications for stack actions.
-- Responsive layout for mobile, tablet, and desktop.
-- Technology data loaded dynamically from a local JSON file.
+- Prevent duplicate technology selections.
+- Remove individual technologies from the stack.
+- Clear the entire stack with one click.
+- Display toast notifications for user actions.
+- Responsive design for mobile, tablet, and desktop.
+- Fetch technology data dynamically from a local JSON file.
 
 ## Technologies Used
 
@@ -29,28 +33,37 @@ Dev Stack is a responsive web application where developers can explore popular t
 
 ## Installation
 
-Clone the repository and navigate to the project directory.
+**1. Clone the repository**
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd dev-stack
+git clone https://github.com/Junaid-redart/dev-stack.git
+```
+
+**2. Navigate to the React project directory**
+
+```bash
+cd dev-stack/dev-stack
+```
+
+**3. Install dependencies**
+
+```bash
 npm install
+```
+
+**4. Start the development server**
+
+```bash
 npm run dev
 ```
 
 ## Production Build
 
+To create an optimized production build:
+
 ```bash
 npm run build
 ```
-
-## Live Website
-
-Add your deployed website URL here.
-
-## GitHub Repository
-
-Add your GitHub repository URL here.
 
 ## React Questions and Answers
 
@@ -76,4 +89,4 @@ Keys help React identify list items between renders so it can correctly update, 
 
 ## Author
 
-Developed as a React assignment project.
+Developed by Junaid Rashid as a React assignment project.
