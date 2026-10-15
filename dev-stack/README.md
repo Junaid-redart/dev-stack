@@ -1,3 +1,8 @@
+## Live Website
+https://dev-stack12.netlify.app
+
+## GitHub Repository
+https://github.com/Junaid-redart/dev-stack
 # Dev Stack
 
 Dev Stack is a responsive web application where developers can explore popular technologies and build their own personalized development stack.
