@@ -42,7 +42,7 @@ const handleRemoveAll = () => {
   }
 
   setSelectedStack([]);
-  toast.success("All technologies removed!");
+  toast.info("Stack Clear");
 };
 
   useEffect(() => {
@@ -88,8 +88,8 @@ const handleRemoveAll = () => {
       )}
       <Footer />
 
-     <ToastContainer
-  position="top-right"
+    <ToastContainer
+  position="bottom-right"
   autoClose={3000}
   aria-label="Notifications"
 />
